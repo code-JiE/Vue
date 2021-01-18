@@ -1,7 +1,7 @@
 <template>
   <div>
           <tab-bar>
-      <tab-bar-item path="/home" activeColor="blue">
+      <tab-bar-item path="/home" activeColor="#e66">
         <span slot="item-icon" >&#xe610;</span>
         <div slot="item-title" class="">
           首页

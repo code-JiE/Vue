@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    
     <router-view/>
     <main-tab-bar></main-tab-bar>
   </div>
@@ -17,5 +16,9 @@ export default {
 }
 </script>
 <style lang="scss">
-@import 'assets/css/base.css'
+@import 'assets/css/base.css';
+#app{
+  position: relative;
+  height: 100vh;
+}
 </style>

@@ -49,7 +49,7 @@ export default {
     }
     .item-title{
         font-size: 14px;
-        line-height: 16px;
+        line-height: 10px;
     }
   
     div>div>.iconfont{
@@ -59,6 +59,6 @@ export default {
         color: #555;
     }
       .active{
-        color: rgba(253, 0, 0, 0.959);
+        color: rgba(253, 0, 0, 0.747);
     }
 </style>
